@@ -1,0 +1,8 @@
+{
+    "private": true,
+    "workspaces": ["web", "service"],
+    "scripts": {
+      "dev:web": "yarn workspace web dev",
+      "dev:service": "yarn workspace service start:dev"
+    }
+  }
